@@ -46,14 +46,15 @@ table {
 /* ----------- Body Styles --------------- */
 
 body {
-  background-color: rgb(218, 218, 218)
+
 	font-family:'Libre Baskerville', serif;
 }
 
 #container {
     width: 100%;
     margin: auto;
-		background-color: rgb(218, 218, 218);
+		/* background-color: green; */
+
 }
 
 /* -------------  Header Styles --------------- */
@@ -85,14 +86,10 @@ details {
     color: rgb(176, 176, 176);
 }
 
-/* -----------------
-
-Main Styles
-
------------------ */
+/* ----------------- Main Styles ----------------- */
   #about figure{
 	/*float: left;*/
-	width: 50%;
+	width: 100%;
 	text-align: center;
 	font-style: italic;
 	font-size: smaller;
@@ -101,7 +98,7 @@ Main Styles
 	position: relative;
 }
 #about figure img{
-	width: 100%;
+	width: 75%;
 }
 #about .image-caption-text{
 	margin-top: 10px;
@@ -124,10 +121,10 @@ figure figcaption{
 }
 
 #about {
-	background-color: rgb(218, 218, 218);
+	/* background-color: rgb(218, 218, 218); */
 	font-family: 'Libre Baskerville', serif;
-	width: 60%;
-	padding: 2%;
+	width: 85%;
+	padding: 10%;
 }
 
 #about h3 {
@@ -135,19 +132,21 @@ figure figcaption{
 	font-size: 1.5em;
 	font-weight: bold;
 	padding: 15px 0;
+	text-align: center;
 }
 
 p{
 	line-height: 1.25em;
 	padding-top: 10px;
 	width: 100%;
+	text-align: center;
 }
 
 
 aside {
-	background-color: rgb(218, 218, 218);
+	/* background-color: rgb(218, 218, 218); */
 	font-family: 'Libre Baskerville', serif;
-	width: 50%;
+	width: 80%;
 	padding: 2%;
 	height: 800px;
 }
@@ -168,7 +167,7 @@ aside figure img{
 }
 
 footer {
-	padding: 156.25px;
+	padding: 150px;
 	background-color: rgb(51, 51, 51);
 	clear: both;
 }
@@ -181,6 +180,62 @@ footer h2 {
 	font-family:'Libre Baskerville', serif;
 }
 
-@media screen (min-width: 600px){
+
+
+
+@media screen and  (min-width: 675px){
+	body{
+		background-color: aliceblue;
+		color: red;
+	}
+
+
+}
+@media screen and  (min-width: 999px){
+	body{
+		background-color: pink;
+		color: red;
+	}
+
+
+}
+
+@media screen and  (min-width: 1280px){
+	body{
+		background-color: burlywood;
+		color: red;
+	}
+
+
+}
+
+@media screen and  (max-width: 1080px){
+	header h1{
+		color: red;
+	}
+
+
+}
+
+@media screen and  (max-width: 550px){
+	header h1{
+		color: green;
+	}
+
+
+}
+@media screen and  (max-width: 400px){
+	header h1{
+		color: orangered;
+	}
+
+
+}
+
+@media screen and  (max-width: 960px) and (min-width: 715px){
+	#about p{
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+	}
+
 
 }
